@@ -9,12 +9,22 @@ const Footer = () =>
       <div className="row">
         <div className="col-12">
           <div className="footer-content">
-            <a href="https://github.com/PrototypeInteractive/gatsby-react-boilerplate" target="_blank" rel="noopener noreferrer">
-              <Icon icon={Github} width={24} height={24} fill={'#fff'} />
+            <span className="header-logo">
+                Let&#39;s connect :)
+            </span>
+          </div>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-12">
+          <div className="footer-content">
+            <a href="https://github.com/PrototypeInteractive/gatsby-react-boilerplate" target="_blank" rel="noopener noreferrer" className="footer-icon">
+              <Icon icon={Github} width={72} height={72} fill={'#fff'} />
             </a>
           </div>
         </div>
       </div>
+
     </div>
   </footer>);
 
