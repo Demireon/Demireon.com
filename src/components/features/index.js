@@ -8,7 +8,14 @@ const NewsListing = () =>
       <div className="row">
         <div className="col-12">
           <span className="features-content">
-          Hi!
+          Hey! I'm Ali Demirci.
+          </span>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-12">
+          <span className="features-content">
+          Lorem Ipsum
           </span>
         </div>
       </div>
