@@ -18,7 +18,7 @@ const Footer = () =>
       <div className="row">
         <div className="col-12">
           <div className="footer-content">
-            <a href="https://github.com/PrototypeInteractive/gatsby-react-boilerplate" target="_blank" rel="noopener noreferrer" className="footer-icon">
+            <a href="https://github.com/Demireon" target="_blank" rel="noopener noreferrer" className="footer-icon">
               <Icon icon={Github} width={72} height={72} fill={'#fff'} />
             </a>
           </div>
