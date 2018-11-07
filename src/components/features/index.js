@@ -8,14 +8,14 @@ const NewsListing = () =>
       <div className="row">
         <div className="col-12">
           <span className="features-content">
-          Hey! I'm Ali Demirci.
+          I’m a web application developer currently based in Des Moines, Iowa working on cool stuff
           </span>
         </div>
       </div>
       <div className="row">
         <div className="col-12">
           <span className="features-content">
-          Lorem Ipsum
+          Currently working at Principal Financial Group, ask me about it!
           </span>
         </div>
       </div>
