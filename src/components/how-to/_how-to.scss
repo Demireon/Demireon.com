@@ -1,7 +1,10 @@
-.howto {
+.work {
     background-color: #fff;
     padding: 90px 0;
-    &-title{
+    &-title {
         font-weight: bold;
+        align-items: center;
+        justify-content: center;
+        display: flex;
     }
 }
