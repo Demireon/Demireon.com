@@ -1,5 +1,3 @@
-/* global graphql */
-
 import React from 'react';
 import Features from '../components/features';
 import HowTo from '../components/how-to';
