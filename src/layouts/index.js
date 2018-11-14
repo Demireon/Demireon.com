@@ -11,7 +11,6 @@ const TemplateWrapper = ({ children }) => (
     <Helmet
       title="Ali Demirci"
     />
-    <html lang="en" />
     <Header />
     {children()}
     <Footer />
