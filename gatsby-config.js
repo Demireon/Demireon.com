@@ -3,31 +3,37 @@ const autoprefixer = require('autoprefixer');
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: 'Ali Demirci',
   },
   plugins: [
-    `gatsby-plugin-react-next`,
-    `gatsby-plugin-react-helmet`,
-    `svgo`,
+    'gatsby-plugin-react-next',
+    'gatsby-plugin-react-helmet',
+    'svgo',
     {
-      resolve: `gatsby-plugin-postcss-sass`,
+      resolve: 'gatsby-plugin-postcss-sass',
       options: {
         postCssPlugins: [
           pixrem(),
           autoprefixer({
-            browsers: ['last 2 versions']
-          })
+            browsers: ['last 2 versions'],
+          }),
         ],
-        precision: 8
-      }
+        precision: 8,
+      },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-plugin-html-attributes',
       options: {
-        name: `data`,
+        lang: 'en',
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'data',
         path: `${__dirname}/src/data/`,
       },
     },
-    `gatsby-transformer-json`
+    'gatsby-transformer-json',
   ],
-}
+};

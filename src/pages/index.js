@@ -1,3 +1,5 @@
+/* global graphql */
+
 import React from 'react';
 import Features from '../components/features';
 import HowTo from '../components/how-to';
@@ -9,3 +11,20 @@ const IndexPage = props =>
   </main>);
 
 export default IndexPage;
+
+export const pageQuery = graphql`
+  query IndexQuery {
+    allDataJson {
+      edges {
+        node {
+          features {
+            title
+          }
+          howTo {
+            title
+          }
+        }
+      }
+    }
+  }
+`;

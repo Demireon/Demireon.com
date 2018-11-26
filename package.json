@@ -20,6 +20,7 @@
     "compression": "^1.7.1",
     "debug": "^3.1.0",
     "express": "^4.16.2",
+    "gatsby-plugin-html-attributes": "^1.0.5",
     "helmet": "^3.10.0",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",

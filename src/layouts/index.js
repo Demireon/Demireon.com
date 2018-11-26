@@ -8,10 +8,10 @@ import '../../sass/style.scss';
 
 const TemplateWrapper = ({ children }) => (
   <div>
-    <Helmet
-      title="Ali Demirci"
-    />
-    <html lang="en" />
+    <Helmet>
+      <title>Ali Demirci</title>
+      <meta name="Description" content="Hi there! I am Ali Demirci and this is my personal site." />
+    </Helmet>
     <Header />
     {children()}
     <Footer />
