@@ -30,7 +30,13 @@ const Footer = () =>
             <a href="https://medium.com/@Demireon" aria-label="Medium" target="_blank" rel="noopener noreferrer" className="footer-icon">
               <Icon icon={Medium} width={72} height={72} fill={'#fff'} />
             </a>
-            <a href="mailto:alidemir95@gmail.com" aria-label="Email" target="_blank" rel="noopener noreferrer" className="footer-icon">
+            <a
+              href="mailto:alidemir95@gmail.com"
+              aria-label="Email"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer-icon"
+            >
               <Icon icon={Email} width={72} height={72} fill={'#fff'} />
             </a>
           </div>

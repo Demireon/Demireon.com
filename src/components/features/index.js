@@ -8,7 +8,8 @@ const NewsListing = () =>
       <div className="row">
         <div className="col-12">
           <span className="features-content">
-          I’m a web developer based in Des Moines, Iowa and enjoy building cool stuff for the web.
+          Hi! I’m a web developer based in Des Moines, Iowa
+          and I enjoy building cool stuff for the web.
           My personal interests include traveling, comedy, and connecting with people.
           Currently working at Principal Financial Group solving problems at
           the intersection of fintech and martech. Ask me about it!
