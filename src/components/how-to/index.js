@@ -16,16 +16,15 @@ const NewsListing = () =>
         <div className="col-6">
           <Card body>
             <CardTitle>Personal Website</CardTitle>
-            <CardText>This is my personal website</CardText>
+            <CardText>Interfacing with the rest of the world</CardText>
             <Button href="https://github.com/Demireon/Demireon.com">Repo</Button>
           </Card>
         </div>
         <div className="col-6">
           <Card body>
-            <CardTitle>Special Title Treatment</CardTitle>
-            <CardText>With supporting text below as a
-              natural lead-in to additional content.</CardText>
-            <Button>Go somewhere</Button>
+            <CardTitle>Metrum API</CardTitle>
+            <CardText>An API for the future of energy</CardText>
+            <Button href="https://github.com/Demireon/Metrum-API">Repo</Button>
           </Card>
         </div>
       </div>
