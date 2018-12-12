@@ -22,9 +22,9 @@ const NewsListing = () =>
         </div>
         <div className="col-6">
           <Card body>
-            <CardTitle>Metrum API</CardTitle>
-            <CardText>An API for the future of energy</CardText>
-            <Button href="https://github.com/Demireon/Metrum-API">Repo</Button>
+            <CardTitle>Github</CardTitle>
+            <CardText>Code pieces</CardText>
+            <Button href="https://github.com/Demireon/">Profile</Button>
           </Card>
         </div>
       </div>
